@@ -1,5 +1,4 @@
-:root
-{
+:root{
   --yellow: #F5C32C;
     --orange : #FCA61F;
     --black : #242D49;
@@ -15,6 +14,13 @@
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);    
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    width: 480px!important;
+    height: 100%
+  }
 }
 
 
